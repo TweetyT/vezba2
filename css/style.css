@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    min-width: 310px;
+    background-color: yellow;
+}
+
+.
+.container.left {
+    background-color: blue;
+    margin-right: 210px;
+    height: 200px;
+}
+.
+.container.content {
+    float: right;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+ 
