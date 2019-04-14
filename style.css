@@ -10,4 +10,11 @@ border: 8px solid #ca7d60;
   height:100vh;
   background-color: #bd5d38;
  
-}
+} 
+.nav-link{
+	color:#ffffff;
+	font-weight:800;
+	letter-spacing:.05rem;
+	text-transform:uppercase
+    }
+    
