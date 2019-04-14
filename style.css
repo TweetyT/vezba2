@@ -1,4 +1,7 @@
+.container{
+   
 
+}
 .img-circle{
 width:134px;
 height:136px;
@@ -15,6 +18,13 @@ border: 8px solid #ca7d60;
 	color:#ffffff;
 	font-weight:800;
 	letter-spacing:.05rem;
-	text-transform:uppercase
+	text-transform:uppercase;
+	font-size:15px;
     }
-    
+
+  #o_meni {height:500px;color: #fff;background-color:red}
+  #iskustvo {height:500px;color: #fff}
+  #obrazovanje {height:500px;color: #fff}
+  #vestine {height:500px;color: #fff}
+  #interesovanja {height:500px;color: #fff}
+  #nagrade {eight:500px;color: #fff;background-color:yellow;}
