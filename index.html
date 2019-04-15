@@ -9,21 +9,23 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
        
-            <div class="row " style="height: 100%">
+            <div class="row inline-block-row  ">
               
   
                   <div class="col-sm-3">
                     <!-- Brand -->
-                    
-                    <nav class="navbar-toggler" style="margin-top:50%">
+                    <div class="navbar-header  vertical-center" 
+                                style="margin-top:30%; margin-left: 30px;">
+                            <a class="navbar-brand" href="#">
+                              <img src="images/me.jpg" class="img-circle">
+                            </a>
+                       </div> 
+                    <nav class="navbar-toggler" style="margin-top:90%">
                         <ul class="navbar-nav w-100 text-center ">
                           <!-- <a class="navbar-brand">-->
-                            <li class="nav-item">
 
-                                 <img src="images/me.jpg" class="img-circle"> 
-                            </li>
 
                             <li class="nav-item">
                                 <a class="nav-link"  href="#o_meni">O MENI</a>
@@ -50,7 +52,7 @@
                     
                   </div>
                 </div>
-                <div class="col-sm-9" data-spy="scroll">
+                <div class="col-sm-9">
                     <div id="o_meni">aaa </div>
                     <div id="iskustvo">bbb </div>
                     <div id="obrazovanje">ccc </div>
