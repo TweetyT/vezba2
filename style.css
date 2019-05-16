@@ -1,4 +1,3 @@
-
 #me .fixedColumn {
     width: 250px;
     float: left;
@@ -87,3 +86,17 @@ p.pr{
     background: #4a5058;
     color: white;
     }                      
+
+    
+  @media (min-width: 768px) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    visibility: visible;
+  }
+    
+ #me .fixedColumn {
+    
+    
+    }
+  
+}
