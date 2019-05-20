@@ -1,17 +1,20 @@
-#me .fixedColumn {
+
+.fixedColumn {
     width: 250px;
     float: left;
     background-color: #bd5d38;
     height:100%;
     position: fixed;
     }
-#me .flexibleColumn {
+.flexibleColumn {
     margin-left: 350px;
     }
 
 .navbar-header{
-    margin-top:30%; 
-    margin-left: 45px;"
+    padding-top: 80%;
+    padding-left: 40px;
+    padding-right: 35px;
+    height: 350px;
 }
 
 .img-circle{
@@ -19,6 +22,14 @@
     height:136px;
     border: 8px solid #ca7d60;
     }
+    
+.navbar-nav {
+    padding-top: 10px;
+}
+
+.nav-item { 
+    height: 40px;
+}
 
 .nav-link{
     color:#eabfaf;
@@ -29,16 +40,16 @@
     font-color:#ca7d60;
     }
 
-
-
-a:hover {
-    color: #ffddcc;
-    }
-
-.nav.ul.li.a:active {
+.nav-link.a:active {
     color: white;
     }
+    
+.nav-link.a:current {
+  color: red;
+}
 
+   
+    
 
     #o_meni {height:100vh;color: #666a6f;}
     #iskustvo {height:100vh;color:#666a6f;}
@@ -49,7 +60,7 @@ a:hover {
  
  
 
-p.pr{
+.pr{
     line-height: 200%;
     width: 800px;
      }
@@ -88,15 +99,35 @@ p.pr{
     }                      
 
     
-  @media (min-width: 768px) {
-  .collapse.dont-collapse-sm {
+  @media (min-width: 767px) {
+  .fixedColumn .navbar-header .menu-list .menu-content {
     display: block;
-    visibility: visible;
+      } 
+}
+
+@media (max-width: 767px) {
+  .fixedColumn{
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
   }
-    
- #me .fixedColumn {
-    
-    
-    }
-  
+  .fixedColumn .toggle-btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10 !important;
+    padding: 3px;
+    background-color: #ffffff;
+    color: #000;
+    width: 40px;
+    text-align: center;
+  }
+  .brand {
+    text-align: left !important;
+    font-size: 22px;
+    padding-left: 20px;
+    line-height: 20px !important;
+  }
 }

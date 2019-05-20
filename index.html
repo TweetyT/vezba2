@@ -4,32 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="10">
     <div id="me">
 
-        <div class="fixedColumn collapse dont-collapse-sm" id="collapseExample"">
-                 <button class="btn btn-primary hidden visible-xs" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                 Collapse Button
-                   </button>
-        
-        
-                    <div> <br><br><br> </div>
+        <nav class="fixedColumn ">
+                <div class="brand">Dragana Panic</div>
+                <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+                    
                     <div class="navbar-header vertical-center">
-                            <a class="navbar-brand" href="#">
+                             <a class="navbar-brand" href="#">
                               <img src="images/me.jpg" class="img-circle">
                             </a>
                     </div>
-                    <nav class="navbar-toggler" style="margin-top:90%">
-                        <ul class="navbar-nav w-100 text-center currentLink">
+
+                    <div class="collapse navbar-collapse" id="menu-list">
+                        <ul class="navbar-nav w-100 text-center currentLink" id="menu-content">
                             <li class="nav-item">
-                                <a class="nav-link active"  href="#o_meni">O MENI</a>
+                                <a class="nav-link active" href="#o_meni">O MENI</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#iskustvo">ISKUSTVO</a>
@@ -46,11 +46,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#nagrade">NAGRADE</a>
                             </li>
-
                         </ul>
-
-                    </nav>
-        </div>
+                    </div>
+        </nav>
         <div class="flexibleColumn">
  
                     <div class="w-100" id="o_meni">
@@ -133,3 +131,4 @@
 </div>
 </body>
 </html>                                
+
