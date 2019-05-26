@@ -1,4 +1,3 @@
-
 .fixedColumn {
     width: 250px;
     float: left;
@@ -49,7 +48,7 @@
 }
 
    
-    
+   /*---------main menu------------*/
 
     #o_meni {height:100vh;color: #666a6f;}
     #iskustvo {height:100vh;color:#666a6f;}
@@ -58,13 +57,8 @@
     #interesovanja {height:100vh;color:#666a6f;}
     #nagrade {height:100vh;color:#666a6f;}
  
- 
-
-.pr{
-    line-height: 200%;
-    width: 800px;
-     }
-
+    
+     
 .fa {
     padding: 15px ;
     font-size: 200px;
@@ -98,36 +92,45 @@
     color: white;
     }                      
 
+  /*--------- end of main menu------------*/
+ 
+.pr{
+    line-height: 200%;
+    width: 800px;
+     }
+   
+ 
     
-  @media (min-width: 767px) {
-  .fixedColumn .navbar-header .menu-list .menu-content {
-    display: block;
-      } 
-}
+ /*-----------responsive design-----------*/   
+    
+ 
+@media (max-width: 992px) {
+    .fixedColumn {
+    display: none;
+      }
 
-@media (max-width: 767px) {
-  .fixedColumn{
-    position: relative;
+    .flexibleColumn {
     width: 100%;
-    margin-bottom: 10px;
-  }
-  .fixedColumn .toggle-btn {
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    z-index: 10 !important;
-    padding: 3px;
-    background-color: #ffffff;
-    color: #000;
-    width: 40px;
-    text-align: center;
-  }
-  .brand {
-    text-align: left !important;
+    margin: 50px;
+    padding: 0px;
+    overflow -x: hidden;
+      } 
+
+
+    .brand {
+    display: inline-block;
+    height:  60px;
+    width: 100%;
+    background-color: #bd5d38;
+    color: white;
     font-size: 22px;
     padding-left: 20px;
-    line-height: 20px !important;
-  }
+      }
+
 }
+
+@media (min-width: 992px) {
+    .brand {
+    display: none;
+      }
+      }
